@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="loginForm">
+    <h1 class="title">Login</h1>
+    <form onsubmit="return validateForm()" method="post" action="login.php">
+        <div class="fillForm">
+            <label class="label">ID</label>
+            <input type="text" id="id" name="id" class="input" required>
+        </div>
+
+        <div class="fillForm">
+            <label class="label">Password</label>
+            <input type="password" id="password" name="password" class="input" required>
+        </div>
+
+        <div>
+        <button type="submit" class="submitbtn">Submit</button>
+        </div>
+    </div>
+    </form>
+    
+</body>
+</html>
