@@ -53,25 +53,6 @@ body{
     font-size: 16px;
     font-weight: 500;
 }
-.success-message {
-    color: white;
-    background: green;
-    padding: 10px;
-    border-radius: 5px;
-    font-family: Arial, sans-serif;
-    text-align: center;
-    width: fit-content;
-    margin: 20px auto;
-}
 
-.error-message {
-    color: white;
-    background: red;
-    padding: 10px;
-    border-radius: 5px;
-    font-family: Arial, sans-serif;
-    text-align: center;
-    width: fit-content;
-    margin: 20px auto;
-}
+
 
