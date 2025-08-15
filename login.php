@@ -14,9 +14,11 @@ $sql = "SELECT * FROM admin WHERE id='$id' AND password = '$password'";
 $result = mysqli_query($conn, $sql);
 
 if (mysqli_num_rows($result) > 0) {
-        echo "Succes! =)";
-    } else {
-        echo "Login failed!";
-    }
+    echo "Succes! =)";
+} else {
+    echo "Login failed!";
+}
 
+mysqli_close($conn);
 ?>
+
